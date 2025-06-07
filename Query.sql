@@ -59,7 +59,7 @@ ALTER TABLE Pelanggan
     ADD CONSTRAINT fk_pelanggan_transaksi FOREIGN KEY (IdTransaksiPenjualan) REFERENCES TransaksiPenjualan(IdTransaksiPenjualan) ON DELETE CASCADE;
 
 -- 1. StokBarang
-toko_sembakoINSERT INTO StokBarang (IdStok, JumlahBarangMasuk, JumlahBarangKeluar, LevelMinimumStok) VALUES
+INSERT INTO StokBarang (IdStok, JumlahBarangMasuk, JumlahBarangKeluar, LevelMinimumStok) VALUES
 ('STK001', 100, 20, 30), ('STK002', 120, 40, 25), ('STK003', 150, 60, 40), ('STK004', 200, 70, 60),
 ('STK005', 250, 80, 50), ('STK006', 300, 100, 70), ('STK007', 180, 90, 30), ('STK008', 400, 120, 80),
 ('STK009', 500, 150, 100), ('STK010', 320, 130, 90), ('STK011', 140, 60, 30), ('STK012', 170, 70, 40),
@@ -242,5 +242,3 @@ INSERT INTO Pelanggan (IdPelanggan, NamaPelanggan, DataPelanggan, IdTransaksiPen
 ('PLG038', 'Laila', '081234567918', 'TRX038'),
 ('PLG039', 'Maya', '081234567919', 'TRX039'),
 ('PLG040', 'Nizar', '081234567920', 'TRX040');
-
-DROP TABLE transaksipenjualan;
