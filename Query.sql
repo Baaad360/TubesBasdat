@@ -20,7 +20,7 @@ CREATE TABLE Produk (
     IdStok VARCHAR(255),
     Ukuran INT(10),
     Harga INT(10),
-    JumlahStock INT(10)
+    JumlahStok INT(10)
 );
 
 -- 3. Tabel Pembayaran
