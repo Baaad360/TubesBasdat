@@ -72,7 +72,7 @@ INSERT INTO StokBarang (IdStok, JumlahBarangMasuk, JumlahBarangKeluar, LevelMini
 ('STK037', 560, 280, 170), ('STK038', 580, 290, 180), ('STK039', 600, 300, 190), ('STK040', 620, 310, 200);
 
 -- 2. Produk
-INSERT INTO Produk (IdProduk, Merek, Jenis, IdStok, Ukuran, Harga, JumlahStock) VALUES
+INSERT INTO Produk (IdProduk, Merek, Jenis, IdStok, Ukuran, Harga, JumlahStok) VALUES
 ('PRD001', 'Indomie', 'Mie Instan', 'STK001', 80, 3000, 70),
 ('PRD002', 'Bimoli', 'Minyak Goreng', 'STK002', 1000, 15000, 150),
 ('PRD003', 'Aqua', 'Air Mineral', 'STK003', 1500, 5000, 90),
